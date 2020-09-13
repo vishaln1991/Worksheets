@@ -1,0 +1,67 @@
+Machine Learning Worksheet
+
+1. C) between -1 and 1
+2. C) Recursive feature elimination
+3. C) hyperplane
+4. D) Support Vector Classifier
+5. C) old coefficient of 'X' % 2.205
+6. A) remains same
+7. A) Random Forests reduce overfitting
+8. D) All of the above
+9. C) Identifying spam or ham emails
+10. A) max_depth
+
+11. Outliers - 
+
+     An observation which differs from an overall pattern on a sample dataset is called an outlier.
+
+     IQR method for outlier detection - 
+
+     IQR is used to measure variability by dividing a data set into quartiles. The data is sorted in ascending order and split into 4 equal parts. Q1, Q2, Q3 called first, second and third      quartiles are the values which separate the 4 equal parts.
+
+     Q1 represents the 25th percentile of the data.
+     Q2 represents the 50th percentile of the data.
+     Q3 represents the 75th percentile of the data.
+
+   IQR is the range between the first and the third quartiles namely Q1 and Q3: IQR = Q3 – Q1. The data points which fall below Q1 – 1.5 IQR or above Q3 + 1.5 IQR are outliers.
+
+
+12. Primary difference between bagging and boosting algorithms - 
+
+          Bagging                                   Boosting
+
+1. Simplest way of combining predictions       Way of combining predictions that belong to the different types. 
+   that belong to the same type. 
+
+2. Aim to decrease variance, not bias.         Aim to decrease bias, not variance. 
+
+3. Each model receives equal weight.           Models are weighed according to their performance. 
+
+4. Each model is built independently.          New models are influenced by performance of previously built models. 
+
+13. Adjusted R2 in logistic Regression. 
+
+   It measures the proportion of variation explained by only those independent variables that really help in explaining the dependent variable. It penalizes you for adding independent         variable that do not help in predicting the dependent variable.
+
+   How it is calculated - 
+
+   Adjusted R-Squared can be calculated mathematically in terms of sum of squares. 
+   It is therefore can be calculated based on value of r-squared, number of independent variables (predictors), total sample size.
+
+14.Difference between Standardisation and Normalisation - 
+
+   Normalisation usually means to scale a variable to have a values between 0 and 1. 
+   Standardisation transforms data to have a mean of zero and a standard deviation of 1. 
+
+15.Cross validation
+
+   Cross validation is a resampling procedure used to evaluate machine learning models on a limited data sample. The procedure has a single parameters called k that refers to the number of 
+   groups that a given data sample is to be split into. This procedure is called k-fold cross validation. In this type of validation, you split the input data into k subsets of data. 
+
+   Advantage of cross validation - 
+
+   Cross Validation helps in finding the optimal value of hyperparameters to increase the efficiency of the algorithm.
+
+   Disadvantage of cross validation - 
+
+   Cross Validation is computationally very expensive in terms of processing power required.

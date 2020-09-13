@@ -1,0 +1,69 @@
+Python Worksheet 
+
+1. B) struct
+2. C) 1_no
+3. A) in
+4. A) Left to Right
+5. A)
+6. C)
+7. D) 
+8. B) str
+9. B)
+10. A) C) D)
+
+11. Difference between a List, tuple, set and dictionary
+
+List - 
+List is a collection which is ordered.
+Lists are mutable (changeable) .
+Allows duplicate members
+Brackets used to represent: []
+Lists are like arrays declared in other languages.
+Tuples
+
+Tuple - 
+Collection of items which is ordered.
+Tuples are immutable (unchangeable) .
+Brackets used to represent: ()
+Only difference between tuples and lists are that lists can be changed.
+Tuples are faster than lists as they are immutable.
+Sets
+
+Set -
+Collection of Unordered and Unindexed items.
+Sets are mutable (changeable).
+Does not take duplicate Values.
+Sets are unordered, so you cannot be sure in which order the items will appear.
+Brackets used to represent: { }.
+Sets are not faster than lists however they have a upper hand when it comes to membership testing.
+Dictionaries.
+
+Dictionary - 
+Key:Value Pair in Python
+A dictionary is a collection which is unordered, changeable and indexed.
+In Python dictionaries are written with curly brackets, and they have keys and values.
+Brackets used to represent: {}
+
+12. In Python, the string data types are immutable, it means the string value cannot be updated. 
+
+Replace '+' with space in Python - 
+
+txt = "I+Love+Python"
+
+x = txt.replace(" +", " ")
+
+print(x)
+
+
+13. The ord() function in Python accepts a string of length 1 as an argument and returns the unicode code point representation of the passed argument. 
+Example of ord function
+
+For example ord('B') returns 66 which is a unicode code point value of character 'B'.
+
+Function for getting the datatype of a variable in Python - 
+
+def type: 
+   int = 123
+   print(type(int))
+
+ 

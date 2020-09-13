@@ -1,0 +1,49 @@
+SQL Worksheet
+
+1. A),B) and D)
+2. A), B) and C)
+3. B) Structured Query Language
+4. B) Data Definition Language
+5. A) Data Manipulation Language
+6. C) Create Table A(B int, C float)
+7. B) Alter Table A ADD COLUMN D float
+8. D) None of them
+9. B) Alter Table A Alter Column D int
+10. A) Alter Tabl A Add Constraint Primary Key B
+
+11. Data Warehouse 
+
+   Data warehousing is the electronic storage of a large amount of information by a business or organization. A data warehouse is designed to run query and analysis on historical data derived from transactional sources for business intelligence and data mining purposes. 
+
+
+12. Difference between OLTP VS OLAP?
+
+                        OLAP                                               OLTP
+
+1. Consists of historical data from various databases.          Consists only operational current data.
+2. It is subject oriented. Used for Data Mining, Analytics,     It is application oriented. Used for business tasks.
+   Decision making, etc. 
+3. The data is used in planning, problem solving and            The data is used to perform day to day fundamental operations.
+   decision making.
+4. Reveals a snapshot of present business tasks.                Provides a multi-dimensional view of different business tasks. 
+5. Large amount of data is stored typically in TB,PB.           Size of data is relatively small as historical data is archived. For ex MB,GB.
+6. Relatively slow as the amount of data involved is            Very fast as the queries operate on 5% of the data.
+   large. Queries may take hours. 
+7. This data is generally managed by CEO, MD, GM.               This data is managed by clerks, managers. 
+
+13. Data Warehouse characteristics - 
+
+  Three prominent warehouse characteristics - 
+
+  1. Integrated - The way data is extracted and transferred in uniform, regardless of the original source. 
+  2. Time-variant - Data is organized via time-periods (weekly, monthly)
+  3. Non-volatile - Data warehouse is not updated in real-time. It is periodically updated via the uploading of data, protecting it from influence of momentary change. 
+
+14. What is Star Schema?
+ 
+  In Star Schema, the center of the star can have one fact table and a number of associated dimension tables. It is known as star schema as its structure resembles a star.
+  The star schema is the simplest type of Data Warehouse schema. 
+
+15. SETL - 
+
+  SET Language is a very-high level programming language with dynamic typing and dynamic data structures, based on the mathematical notion of set. 
